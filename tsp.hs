@@ -9,7 +9,7 @@ path i d l = minimumBy (comparing fst)
 
 tsp d = (\(d', p) -> (d', 0:p)) $ path 0 k [1..((length d) - 1)]
 
--- 0-2-3-1-0 oder 0-1-3-2-0
+-- 0-2-3-1-0 or 0-1-3-2-0
 k = [[0, 4, 1, 7],
      [5, 0, 2, 6],
      [2, 1, 0, 3],
