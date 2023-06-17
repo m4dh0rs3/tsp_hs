@@ -1,1 +1,1 @@
-# Traveling salesman in Haskell
+# Traveling salesperson in Haskell
